@@ -7,11 +7,11 @@
   <li>
 
     <%= f.input :description %>
-    <%= f.association :cocktail %>
-    <%= f.button :submit %>
+    <%= f.association :ingredient %>
+    <%= f.submit :submit, class:'btn btn-primary' %>
   </li>
 
   </ul>
-        <%# <%= link_to 'Destroy', @dose, method: :delete, data: { confirm: 'Are you sure?' } %>
+      
 
   <% end %>

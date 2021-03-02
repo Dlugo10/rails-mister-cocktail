@@ -1,0 +1,39 @@
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: lighter;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+  width: 360px;
+  
+  
+}
+
+.cocktail-cards {
+  list-style-type: none;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+
+
+  #link-cocktail {
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: 0 10px 30px rgba(0,0,0,1);
+    
+    &:hover {
+      color: white;
+      font-size: 25px;
+      
+    }
+  }
+}

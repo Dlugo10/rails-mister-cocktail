@@ -2,11 +2,11 @@
 
 <ul>
 
-  <%= form_for(@cocktail) do |f| %>
+  <%= simple_form_for(@cocktail) do |f| %>
 
   <li>
-    <%= f.label :name %>
-    <%= f.text_field :name %>
+    <%= f.input :name %>
+    <%= f.submit "submit" %>
   </li>
 
   </ul>
