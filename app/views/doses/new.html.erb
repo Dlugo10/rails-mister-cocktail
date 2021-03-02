@@ -1,0 +1,17 @@
+<h1>New Dose</h1>
+
+<ul>
+
+  <%= simple_form_for [@cocktail, @dose] do |f| %>
+
+  <li>
+
+    <%= f.input :description %>
+    <%= f.association :cocktail %>
+    <%= f.button :submit %>
+  </li>
+
+  </ul>
+        <%# <%= link_to 'Destroy', @dose, method: :delete, data: { confirm: 'Are you sure?' } %>
+
+  <% end %>
